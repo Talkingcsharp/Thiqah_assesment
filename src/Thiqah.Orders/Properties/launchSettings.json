@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "Thiqah.Orders": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:53067;http://localhost:53068"
+    }
+  }
+}

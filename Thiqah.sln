@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B416F981-1A63-4B7A-B9F9-7488A8016269}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{114F7B79-3522-488B-A895-971AB63FC82A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thiqah.Shared", "src\Thiqah.Shared\Thiqah.Shared.csproj", "{98551FE0-D4EF-416C-9AB7-33B98D9CCD33}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thiqah.Users", "src\Thiqah.Users\Thiqah.Users.csproj", "{683FDD83-7D7D-4A03-829F-CFCD9DA0AACC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thiqah.Orders", "src\Thiqah.Orders\Thiqah.Orders.csproj", "{371F1B12-A7B0-491C-A972-72B895978762}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thiqah.Orders.UnitTests", "..\..\Thiqah\tests\Thiqah.Orders.UnitTests\Thiqah.Orders.UnitTests.csproj", "{EAAEFDAB-BD8F-4B1F-8D40-40E93A2B112C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thiqah.Orders.IntegrationTests", "..\..\Thiqah\tests\Thiqah.Orders.IntegrationTests\Thiqah.Orders.IntegrationTests.csproj", "{26A98E2B-D135-4223-9D1A-FE714BF9AA96}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thiqah.Orders.BDDTests", "..\..\Thiqah\tests\Thiqah.Orders.BDDTests\Thiqah.Orders.BDDTests.csproj", "{E646A766-89A9-4588-A426-4F5E3BB94F2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98551FE0-D4EF-416C-9AB7-33B98D9CCD33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98551FE0-D4EF-416C-9AB7-33B98D9CCD33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98551FE0-D4EF-416C-9AB7-33B98D9CCD33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98551FE0-D4EF-416C-9AB7-33B98D9CCD33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{683FDD83-7D7D-4A03-829F-CFCD9DA0AACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{683FDD83-7D7D-4A03-829F-CFCD9DA0AACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{683FDD83-7D7D-4A03-829F-CFCD9DA0AACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{683FDD83-7D7D-4A03-829F-CFCD9DA0AACC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{371F1B12-A7B0-491C-A972-72B895978762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{371F1B12-A7B0-491C-A972-72B895978762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{371F1B12-A7B0-491C-A972-72B895978762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{371F1B12-A7B0-491C-A972-72B895978762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAAEFDAB-BD8F-4B1F-8D40-40E93A2B112C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAAEFDAB-BD8F-4B1F-8D40-40E93A2B112C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAAEFDAB-BD8F-4B1F-8D40-40E93A2B112C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAAEFDAB-BD8F-4B1F-8D40-40E93A2B112C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26A98E2B-D135-4223-9D1A-FE714BF9AA96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26A98E2B-D135-4223-9D1A-FE714BF9AA96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26A98E2B-D135-4223-9D1A-FE714BF9AA96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26A98E2B-D135-4223-9D1A-FE714BF9AA96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E646A766-89A9-4588-A426-4F5E3BB94F2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E646A766-89A9-4588-A426-4F5E3BB94F2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E646A766-89A9-4588-A426-4F5E3BB94F2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E646A766-89A9-4588-A426-4F5E3BB94F2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{98551FE0-D4EF-416C-9AB7-33B98D9CCD33} = {B416F981-1A63-4B7A-B9F9-7488A8016269}
+		{683FDD83-7D7D-4A03-829F-CFCD9DA0AACC} = {B416F981-1A63-4B7A-B9F9-7488A8016269}
+		{371F1B12-A7B0-491C-A972-72B895978762} = {B416F981-1A63-4B7A-B9F9-7488A8016269}
+		{EAAEFDAB-BD8F-4B1F-8D40-40E93A2B112C} = {114F7B79-3522-488B-A895-971AB63FC82A}
+		{26A98E2B-D135-4223-9D1A-FE714BF9AA96} = {114F7B79-3522-488B-A895-971AB63FC82A}
+		{E646A766-89A9-4588-A426-4F5E3BB94F2B} = {114F7B79-3522-488B-A895-971AB63FC82A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE70E78F-98C5-48A7-9E34-326022BFD8D2}
+	EndGlobalSection
+EndGlobal
